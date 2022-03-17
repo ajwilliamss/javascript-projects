@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practical Project 1</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <main class="container">
+    <div class="wrapper">
+      <div class="user-input">
+        <label for="amount">
+          Amount to Convert:
+        </label>
+        <input type="text" name="amount" id="amount" class="searchBox" placeholder="0.00">
+      </div>
+
+      <div class="user-selection">
+        <label for="from-selection">From: </label>
+        <select name="from-selection" id="from-selection" class="from">
+          <option value="">Select Currency</option>
+          <option value="USD">USD</option>
+          <option value="GBP">GBP</option>
+          <option value="EUR">EUR</option>
+          <option value="ZAR">ZAR</option>
+          <option value="AED">AED</option>
+          <option value="AUD">AUD</option>
+          <option value="BRL">BRL</option>
+          <option value="CAD">CAD</option>
+          <option value="CHF">CHF</option>
+          <option value="CZK">CZK</option>
+          <option value="DKK">DKK</option>
+          <option value="EGP">EGP</option>
+          <option value="HKD">HKD</option>
+          <option value="INR">INR</option>
+          <option value="JPY">JPY</option>
+          <option value="NOK">NOK</option>
+          <option value="NZD">NZD</option>
+          <option value="RUB">RUB</option>
+          <option value="THB">THB</option>
+          <option value="UAH">UAH</option>
+
+        </select>
+      </div>
+
+      <div class="user-selection">
+        <label for="to-selection">To: </label>
+        <select name="to-selection" id="to-selection" class="to">
+          <option value="">Select Currency</option>
+          <option value="USD">USD</option>
+          <option value="GBP">GBP</option>
+          <option value="EUR">EUR</option>
+          <option value="ZAR">ZAR</option>
+          <option value="AED">AED</option>
+          <option value="AUD">AUD</option>
+          <option value="BRL">BRL</option>
+          <option value="CAD">CAD</option>
+          <option value="CHF">CHF</option>
+          <option value="CZK">CZK</option>
+          <option value="DKK">DKK</option>
+          <option value="EGP">EGP</option>
+          <option value="HKD">HKD</option>
+          <option value="INR">INR</option>
+          <option value="JPY">JPY</option>
+          <option value="NOK">NOK</option>
+          <option value="NZD">NZD</option>
+          <option value="RUB">RUB</option>
+          <option value="THB">THB</option>
+          <option value="UAH">UAH</option>
+        </select>
+      </div>
+
+      <div class="btns">
+        <button class="convert-btn" type="submit">
+          Convert
+        </button>
+        <button onclick="clearVal()">
+          Reset
+        </button>
+      </div>
+
+      <div class="output">
+        <h2>Converted Amount:</h2>
+        <span class="converted-amount"></span>
+      </div>
+    </div>
+  </main>
+
+  <script src="./config.js"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>

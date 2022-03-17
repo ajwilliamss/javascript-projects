@@ -1,0 +1,58 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  padding: 5rem;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+}
+
+button {
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.output {
+  font-size: 2rem;
+}

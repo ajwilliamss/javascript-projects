@@ -1,0 +1,61 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+input,
+select,
+button {
+  padding: 0.5rem;
+}
+
+button {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  padding: 3rem;
+}
+
+.user-input,
+.user-selection,
+.btns {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
+}
+
+.btns .convert-btn {
+  margin-bottom: 0.5rem;
+}
+
+.output {
+  text-align: center;
+}
+
+.output h2 {
+  margin-bottom: 0.5rem;
+}
+
+.output span {
+  color: rgb(0, 117, 0);
+}
